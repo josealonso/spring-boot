@@ -14,3 +14,13 @@ Spring Boot Starters: collection of Maven dependencies grouped together.
   spring-boot-starter-* dependendies inherit version from parent.
 Spring Boot Maven plugin: for packaging and for running 
 
+#### Running Apps from the command-line
+
+- First option
+`./mvnw package` or if you have Maven already installed `mvn package`.
+A .jar file is created in the target sub-directory
+Run the application by typing: `java -jar appName.jar`
+- Second option
+Run the application using Spring Boot Maven plugin
+`./mvnw spring-boot:run`
+		
