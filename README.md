@@ -5,7 +5,7 @@
 *mvnw* files allows you to run a Maven project without having Maven installed on your computer.
 
 
-#### POM File
+### POM File
 
 Spring Boot Starters: collection of Maven dependencies grouped together.
   Example: spring-boot-starter-web.
@@ -14,7 +14,7 @@ Spring Boot Starters: collection of Maven dependencies grouped together.
   spring-boot-starter-* dependendies inherit version from parent.
 Spring Boot Maven plugin: for packaging and for running 
 
-#### Running Apps from the command-line
+### Running Apps from the command-line
 
 - First option
 `./mvnw package` or if you have Maven already installed `mvn package`.
@@ -24,3 +24,20 @@ Run the application by typing: `java -jar appName.jar`
 Run the application using Spring Boot Maven plugin
 `./mvnw spring-boot:run`
 		
+### Spring Boot Properties
+
+They are grouped in eight categories
+- Core
+logging levels: trace, debug, info, warn, error, fatal, off.
+- Web
+server port, context path, session timeout, etc.
+- Security
+user name, password, etc.
+- Data
+database properties 
+- Actuator
+
+- Integration
+- DevTools
+- Testing
+
